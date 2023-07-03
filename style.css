@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    
+    body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Karla', sans-serif;
+    background-color: #E6EFF5;
+    }
+    
+    img, picture, video, canvas, svg {
+      display: block;
+      max-width: 100%;
+    }
+    
+    input, button, textarea, select {
+      font: inherit;
+    }
+
+    main {
+        padding: 4.5rem 2rem 3.875rem 2rem;
+    }
+
+    .container {
+        padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    }
+
+    .join-container {
+        background-color: #FFFFFF;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .monthly-container {
+        background-color: #2AB3B1;
+    }
+
+    .why-container {
+        background-color: #2AB3B1;
+        opacity: 0.85;
+    }    
+
+    .join-container h2 {
+        color: #2AB3B1;
+        font-size: 1.25rem;
+        font-weight: 700;
+        margin-top: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .join-container p:nth-child(2) {
+        color: #C0DF33;
+        font-weight: 700;
+        font-size: 0.9375rem;
+        margin-bottom: 1.125rem;
+    }
+
+    .join-container p:nth-child(3) {
+        color: #9AA7BE;
+        font-size: 0.875rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .monthly-container h2 {
+        font-size: 1.125rem;
+        font-weight: 700;
+        color: #FFFFFF;
+        margin-bottom: 1.125rem;
+    }
+
+    .monthly-container p:nth-child(2) {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        gap: 0.6875rem;
+    }
+
+    .monthly-container span {
+        font-size: 1rem;
+        opacity: 0.5;
+        font-weight: 400;
+    }
+
+    .monthly-container p:nth-child(3) {
+        color: #FFFFFF;
+        margin-bottom: 1.625rem;
+    }
+
+    .monthly-container a {
+        display: block;
+        width: 263px;
+        height: 48px;
+        background-color: #C0DF33;
+        font-weight: 700;
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    .why-container h2 {
+        color: #FFFFFF;
+        font-size: 1.125rem;
+        font-weight: 700;
+        margin-bottom: 1.125rem;
+    }
+
+   ul {
+    list-style-type: none;
+    font-size: 0.875rem;
+    color: #FFFFFF;
+    opacity: 0.75;
+   }
