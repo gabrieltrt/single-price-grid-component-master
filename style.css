@@ -7,7 +7,7 @@
     }
     
     body {
-    line-height: 1.5;
+    line-height: 1.4;
     -webkit-font-smoothing: antialiased;
     font-family: 'Karla', sans-serif;
     background-color: #E6EFF5;
@@ -96,12 +96,13 @@
     }
 
     .monthly-container a {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 263px;
         height: 48px;
         background-color: #C0DF33;
         font-weight: 700;
-        text-align: center;
         color: #FFFFFF;
         text-decoration: none;
         border-radius: 5px;
@@ -133,12 +134,21 @@
     main {
         max-width: 39.6875rem;
         display: grid;
-        grid-template: 1fr 1fr / 1fr 1fr;
+        grid-template: 1fr / 1fr 1fr;
         padding: 0;
+    }
+
+    .container {
+        padding: 2.5rem 2.5rem 2.5rem 2.5rem;
     }
         
     .join-container {
         grid-column: 1 / span 2;
+    }
+
+    .join-container h2 {
+        margin-top: 0;
+        
     }
 
     .join-container p:nth-child(2) {
