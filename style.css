@@ -23,7 +23,9 @@
     }
 
     main {
-        padding: 4.5rem 2rem 3.875rem 2rem;
+        max-width: 19.4375rem;
+        margin: 0 auto;
+        padding:  4.5rem 0 3.875rem 0;
     }
 
     .container {
@@ -118,3 +120,28 @@
     color: #FFFFFF;
     opacity: 0.75;
    }
+
+@media only screen and (min-width: 1023px) {
+
+    body {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    main {
+        max-width: 39.6875rem;
+        display: grid;
+        grid-template: 1fr 1fr / 1fr 1fr;
+        padding: 0;
+    }
+        
+    .join-container {
+        grid-column: 1 / span 2;
+    }
+
+    .join-container p:nth-child(2) {
+        margin-bottom: 0.6875rem;
+    }
+}
